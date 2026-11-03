@@ -1,0 +1,149 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+
+
+.nav{display: flex;
+justify-content: space-between;
+box-shadow: 4px 5px 15px 5px rgb(197, 215, 223);
+
+    align-items: center;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 5px 20px;
+
+
+}
+
+.brandBox{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.manu{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+.brandBox{font-size: 40px;}
+
+.manu .line{
+    width: 25px;
+    border: 2px solid black;
+}
+
+.logo{ width: 50px; height: 50px; border-radius: 50%;}
+.middle{display: flex;
+     }
+      .middle input{border-top-left-radius: 40px;
+        border-bottom-left-radius:40px ;
+        width: 300px;
+    }
+        .middle .searchicon{border-top-right-radius:40px ;
+        border-bottom-right-radius: 40px;
+        font-size: 20px;}
+
+        
+    
+        
+
+    
+     
+
+
+.right{display: flex;align-items: center; ; gap: 15px;}
+.plus{
+    display: flex;
+    border: 1px solid #000;
+}
+
+.plus img{
+    width: 30px;
+}
+
+    .screen{display: flex;
+        
+        
+         margin: 2px;
+        height: calc(100vh - 102px);
+        }
+         
+    .dpbox{border: 1px solid black; 
+        border-radius: 5px;
+        padding: 10px;justify-content: center;gap:10px;font-size: 20px;}
+
+.aside{
+    width: 20vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 10px;
+    border-right: 1px solid #000;
+}
+
+.aside ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+   
+}
+.dpbox1{width: 40px;
+    height: 40px;
+    border-radius: 50%;
+} 
+    .dp{
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    
+    .dpbox{font-size: 20px;
+    margin-top: 10px;
+    display: flex;
+    gap:2px;
+    flex-direction: column;
+    
+    }
+    .maincont{border: 1px solid black;
+         height: 400px;
+        
+        padding-bottom: 10PX;
+        font-size: 30px;
+        }
+
+        
+
+    
+    
+
+
+
+        .maincont img{width: 200px;
+        height: 300px;
+
+    
+    }
+    .maintxt{
+        margin-top:50px;
+        text-align: center;
+    }
+
+
+    @media(max-width:910px){
+
+        .brandBox p{display: none;}
+        .screen .aside{display: none;}
+    }
+    @media(max-width:670px){
+.middle input{display: none;}
+
+
+
+    }

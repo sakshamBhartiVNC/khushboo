@@ -1,0 +1,44 @@
+body{
+    display: flex;
+}
+
+.container{
+    width: 250px;
+    border : 2px black solid;
+    padding: 0 5px;
+}
+
+.container2{
+    width: 250px;
+
+}
+h1 {
+    text-align: center;
+}
+
+.subHeading{
+    background-color: rgb(45, 189, 189);
+    color: white;
+    padding: 5px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.authorImg{
+    width: 75px;
+}
+
+p{
+    margin: 0;
+    text-align: justify;
+}
+
+.authorName{
+    margin: auto;
+    width: max-content;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    border-bottom: 2px red solid;
+margin-bottom: 10px;
+
+}

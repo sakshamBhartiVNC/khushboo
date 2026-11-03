@@ -1,0 +1,66 @@
+.container {
+  width: 250px;
+  border: 2px black solid;
+  padding: 10px;
+  font-weight: bold;
+  border-left: 5px red solid;
+  position: relative;
+}
+.artical {
+  width: 250px;
+  border: 2px black solid;
+  padding: 5px 10px;
+  position: absolute;
+  right: 100px;
+  top: 10px;
+  left: 280px;
+}
+.heading {
+  border-bottom: 5px red solid;
+}
+
+.artical2 {
+  width: 250px;
+  border: 2px black SOLID;
+  padding: 10px;
+  font-weight: bold;
+}
+.artical3 {
+  width: 250px;
+  border: 2px black SOLID;
+  padding: 10px;
+  font-weight: bold;
+  color: red;
+}
+.chatbox {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: blue;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+.chatbox img {
+  width: 45px;
+  border: 1px solid #000;
+}
+.stickybox {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: blue;
+  position: sticky;
+  top: 10px;
+  left: 10px;
+}
+
+.stickybox img {
+  width: 45px;
+  border: 1px solid #000;
+}
+
+@media(max-width:910px){
+    .brandBox p{display: none;}
+}
