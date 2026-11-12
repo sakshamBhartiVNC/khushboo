@@ -1,4 +1,21 @@
-img{height: 600px;
-    width: 600px;
+img {
+  height: 600px;
+  width: 400px;
+  transition: all 500ms ease;
 }
-img:hover{box-shadow: 0 0;}
+img:hover {
+  box-shadow: 0 0 20px 10px off rgb(95, 95, 95);
+  border-radius: 50%;
+}
+.page{display: flex;}
+.flower {
+  height: 600px;
+  width: 400px;
+  animation: bounce 2s ease-out 0.5s infinite normal;
+}
+
+@keyframes bounce {
+  20% {
+    transform: translate(55vw);
+  }
+}
